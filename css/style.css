@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    height: 1000px;
+    background-color: #e2e7ec;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 15px;
+    grid-template-areas:
+      "first first second"
+      "third fourth fifth"
+      "sixth sixth sixth "; 
+  }
+
+.first { grid-area: first;}
+.second { grid-area: second; }
+.third { grid-area: third; }
+.fourth { grid-area: fourth; }
+.fifth { grid-area: fifth; }
+.sixth { grid-area: sixth; }
+
+.header-first {
+    color: #818181;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.header {
+    color: #818181;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.text-first-container {
+    color: #ffffff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.text {
+    color: #1d1d1d;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.second,
+.third,
+.fourth,
+.fifth {
+    background-color: #fff;
+}
+
+.text-on-picture {
+    position: absolute;
+	top: 270px;
+    left: 20px;
+    width: 100%;   
+}
+
+.header,
+.text,
+.photo {
+    padding-left: 20px;
+}
+
+.photo {
+    padding-top: 20px;
+}
+
+.text-growth {
+    padding-top: 22px;
+}
+
+.sixth {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.text-footer {
+    color: #99a5b0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
