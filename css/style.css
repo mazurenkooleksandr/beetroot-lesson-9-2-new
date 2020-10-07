@@ -11,6 +11,7 @@ body {
 
 
 .grid-container {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -87,6 +88,7 @@ body {
 
 .photo {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .text-growth {
@@ -94,7 +96,7 @@ body {
 }
 
 .sixth {
-    height: 30px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;  
